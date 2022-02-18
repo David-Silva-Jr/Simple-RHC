@@ -19,7 +19,7 @@ void RHC(double _sp[2], int _p, double _z, int _seed, double (&_out)[2], int &_c
     // Set seed
     srand(_seed);
 
-    // Guarantee that any solution will be smaller than _out in first run
+    // Copy starting point to output array
     _out[0] = _sp[0];
     _out[1] = _sp[1];
     
