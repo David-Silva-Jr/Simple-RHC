@@ -1,7 +1,7 @@
 NAME="Task1Output.csv"
 printf "sp x, sp y, p, z, seed, #sol, sol x, sol y, f(sol)\n" > $NAME
 
-g++ "task1.cpp" -o running
+g++ "RHC.cpp" -o running
 
 # command line argument order: starting x, starting y, p, z, seed
 # Initial parameters
